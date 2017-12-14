@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import { Meteor } from 'meteor/meteor';
 
 Meteor.startup(() => {
 
@@ -6,9 +6,6 @@ Meteor.startup(() => {
       el: '#app',
       data: {
         message: 'Hello, world!'
-      },
-      render: (createElement) => {
-        return createElement(Vue.component('layout'));
       }
   });
 

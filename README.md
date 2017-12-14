@@ -1,6 +1,7 @@
 # mogul-helloworld
 
-A very simple example Meteor app using Vue-based Tracker and Vue components.
+A very simple example Meteor app using Vue as the front end to
+test toolchain.
 
 You can run it:
 
