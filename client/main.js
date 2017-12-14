@@ -1,22 +1,15 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+import Vue from 'vue';
 
-import './main.html';
+Meteor.startup(() => {
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
-});
+  new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello, world!'
+      },
+      render: (createElement) => {
+        return createElement(Vue.component('layout'));
+      }
+  });
 
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
 });
