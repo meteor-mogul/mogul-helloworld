@@ -7,6 +7,7 @@ You can run it:
 
 ```
 $ git clone https://github.com/meteor-mogul/mogul-helloworld.git
+$ cd mogul-helloworld
 $ meteor npm install
 $ meteor
 ```
