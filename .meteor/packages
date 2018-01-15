@@ -18,5 +18,3 @@ autopublish                   # Publish all data to the clients (for prototyping
 insecure                      # Allow all DB writes from clients (for prototyping)
 
 static-html                   # Doesn't compile Blaze templates
-
-meteormogul:vue-dist          # VueJS JavaScript framework (replaces Blaze)
