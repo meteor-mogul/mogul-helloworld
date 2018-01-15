@@ -1,3 +1,11 @@
+# Changelog for mogul-helloworld
+
+## [0.0.5] - 2018-01-15
+
+- The 0.0.4 tag is on the `npm` branch.  Going forward, even tags will be on that branch.
+- This `master` branch continues using the Atmosphere package version of vue.js.
+- Remove unnecessary packages.
+
 ## 0.0.3
 
 Remove .id from repository.

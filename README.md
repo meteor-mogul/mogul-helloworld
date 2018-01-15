@@ -11,3 +11,9 @@ $ cd mogul-helloworld
 $ meteor npm install
 $ meteor
 ```
+
+## Branches
+
+The `master` branch uses the `meteormogul:vue-dist` Atmosphere package of vue.js.
+
+The `npm` branch uses the NPM package.
