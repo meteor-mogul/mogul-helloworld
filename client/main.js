@@ -1,7 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Vue } from 'meteor/meteormogul:vue-dist';
-import Vuetify from 'vuetify';
-import 'meteor/zodiase:material-design-icons-fonts';
+import { Vuetify } from 'meteor/meteormogul:vuetify-dist';
 
 Vue.use(Vuetify);
 

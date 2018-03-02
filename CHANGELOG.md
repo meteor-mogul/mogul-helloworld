@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.0.11] - 2018-03-02
+
+- Use meteormogul:vuetify-dist instead of npm packge of Vuetify
+
 ## [0.0.9] - 2018-03-02
 
 - Add dependency on vue-meteor-tracker and vuetify

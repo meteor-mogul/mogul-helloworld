@@ -10,7 +10,8 @@ standard-minifiers@1.1.0            # JS/CSS minifiers run for production mode
 es5-shim@4.7.0                      # ECMAScript 5 compatibility for older browsers
 ecmascript@0.10.0                   # Enable ECMAScript2015+ syntax in app code
 
-static-html                         # Doesn't compile Blaze templates
+static-html                         # Don't compile .html files as Blaze templates
 
 meteormogul:vue-dist@2.5.16         # VueJS JavaScript framework (replaces Blaze)
-zodiase:material-design-icons-fonts # Fonts for vuetify
+meteormogul:vuetify-dist            # Vuetify CSS framework (Material Design)
+zodiase:material-design-icons-fonts # Icon fonts for vuetify
