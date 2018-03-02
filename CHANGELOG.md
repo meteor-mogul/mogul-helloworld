@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.0.13] - 2018-03-02
+
+- meteormogul:material-design-icons-fonts
+
 ## [0.0.11] - 2018-03-02
 
 - Use meteormogul:vuetify-dist instead of npm packge of Vuetify
