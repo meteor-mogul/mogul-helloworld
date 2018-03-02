@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.0.15] - 2018-03-02
+
+- Use <v-icon> instead of <i>
+
 ## [0.0.13] - 2018-03-02
 
 - meteormogul:material-design-icons-fonts
