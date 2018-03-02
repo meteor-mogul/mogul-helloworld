@@ -1,5 +1,10 @@
 # Changelog for mogul-helloworld
 
+## [0.0.9] - 2018-03-02
+
+- Add dependency on vue-meteor-tracker and vuetify
+- Need to figure out font situation
+
 ## [0.0.7] - 2018-02-20
 
 - Meteor 1.6.1

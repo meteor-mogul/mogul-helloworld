@@ -1,12 +1,14 @@
 import { Meteor } from 'meteor/meteor';
+import { Vue } from 'meteor/meteormogul:vue-dist';
+import Vuetify from 'vuetify';
+import 'meteor/zodiase:material-design-icons-fonts';
 
-Meteor.startup(() => {
+Vue.use(Vuetify);
 
-  new Vue({
-      el: '#app',
-      data: {
-        message: 'Hello, world!'
-      }
-  });
-
+vm = new Vue({
+    el: '#app',
+    template: '#app-template',
+    data: {
+      message: 'Hello, world!'
+    }
 });

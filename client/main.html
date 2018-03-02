@@ -1,11 +1,27 @@
 <head>
   <title>Hello, world!</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
 
 <body>
 
-  <h1>Welcome to Meteor Mogul!</h1>
+  <div id="app"></div>
 
-  <div id="app">{{ message }}</div>
+  <script type="text/x-template" id="app-template">
+    <div>
+      <v-app>
+        <v-content>
+          <v-card class="elevation-12">
+            <v-toolbar dark color="primary">
+              <v-toolbar-title>Welcome to Meteor Mogul!</v-toolbar-title>
+            </v-toolbar>
+            <v-card-text>{{ message }}</v-card-text>
+          </v-card>
+        </v-content>
+      </v-app>
+    </div>
+  </script>
 
 </body>
