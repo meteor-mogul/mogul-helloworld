@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.1.1] - 2018-03-02
+
+- Add link to demo at https://meteor-mogul-hello-world.herokuapp.com/
+
 ## [0.0.15] - 2018-03-02
 
 - Use <v-icon> instead of <i>

@@ -30,3 +30,7 @@ $ meteor npm install --save @babel/runtime
 The `master` branch uses the `meteormogul:vue-dist` Atmosphere package of vue.js.
 
 The `npm` branch uses the NPM package.
+
+## Demo
+
+[https://meteor-mogul-hello-world.herokuapp.com/](https://meteor-mogul-hello-world.herokuapp.com/)
