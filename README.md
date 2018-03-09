@@ -4,6 +4,8 @@
 
 A very simple example Meteor app using Vue as the front end.
 
+This is the master branch, which uses meteormogul Atmosphere packages for vue and vuetify.
+
 ## Why
 
 Use this app to test your toolchain, i.e. make sure you have meteor and your development environment installed correctly.
@@ -27,9 +29,9 @@ $ meteor npm install --save @babel/runtime
 
 ## Branches
 
-The `master` branch uses the `meteormogul:vue-dist` Atmosphere package of vue.js.
+The `master` branch uses the `meteormogul:vue-dist` Atmosphere package of vue.js and the `meteormogul:vuetify-dist` Atmosphere package of vuetify.js.
 
-The `npm` branch uses the NPM package.
+The `npm` branch uses NPM packages.
 
 ## Demo
 

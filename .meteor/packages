@@ -12,6 +12,6 @@ ecmascript@0.10.0                       # Enable ECMAScript2015+ syntax in app c
 
 static-html                             # Don't compile .html files as Blaze templates
 
-meteormogul:vue-dist@2.5.16             # VueJS JavaScript framework (replaces Blaze)
+meteormogul:vue-dist                    # VueJS JavaScript framework (replaces Blaze)
 meteormogul:vuetify-dist                # Vuetify CSS framework (Material Design)
 meteormogul:material-design-icons-fonts # Material Icons font

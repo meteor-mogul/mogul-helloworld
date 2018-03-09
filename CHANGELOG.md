@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.1.3] - 2018-03-08
+
+- Update to vuetify 1.0.5
+
 ## [0.1.1] - 2018-03-02
 
 - Add link to demo at https://meteor-mogul-hello-world.herokuapp.com/
