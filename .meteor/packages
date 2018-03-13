@@ -15,3 +15,4 @@ static-html                             # Don't compile .html files as Blaze tem
 meteormogul:vue-dist                    # VueJS JavaScript framework (replaces Blaze)
 meteormogul:vuetify-dist                # Vuetify CSS framework (Material Design)
 meteormogul:material-design-icons-fonts # Material Icons font
+meteormogul:vue-router-dist             # Vue Router

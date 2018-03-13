@@ -1,5 +1,11 @@
 # Changelog for mogul-helloworld
 
+## [0.1.5] - 2018-03-13
+
+- Separate head HTML code.
+- Add favicon.
+- Add VueRouter with happy and sad faces.
+
 ## [0.1.3] - 2018-03-08
 
 - Update to vuetify 1.0.5
