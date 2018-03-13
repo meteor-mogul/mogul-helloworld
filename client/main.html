@@ -1,24 +1,34 @@
 <body>
 
+  <!-- Render target for Vue app.  Use id to identify. -->
   <div id="app"></div>
 
+  <!-- Template for Vue component goes in <script> tag. -->
+  <!-- Since we're using static-html package to parse .html files,
+       this template will be processed by VueJS and not Blaze. -->
+  <!-- Each template must have one wrapping tag. -->
+  <!-- <v-*> HTML tags are Vuetify components. -->
+  <!-- Wrap Vuetify app in a <v-app> tag. -->
   <script type="text/x-template" id="app-template">
-    <div>
-      <v-app>
-        <v-content>
-          <v-card class="elevation-12">
-            <v-toolbar dark color="primary">
-              <v-toolbar-title>Welcome to Meteor Mogul!</v-toolbar-title>
-            </v-toolbar>
-            <v-card-text>{{ message }}
-              <router-link to="/happy">Happy</router-link>
-              <router-link to="/sad">Sad</router-link>
-              <router-view></router-view>
-            </v-card-text>
-          </v-card>
-        </v-content>
-      </v-app>
-    </div>
+    <v-app>
+      <v-content>
+        <!-- elevation height determines drop shadow -->
+        <v-card class="elevation-12">
+          <v-toolbar dark color="primary">
+            <v-toolbar-title>Welcome to Meteor Mogul!</v-toolbar-title>
+          </v-toolbar>
+          <!-- Use handlebars for displaying data. -->
+          <v-card-text>{{ message }}
+            <!-- VueRouter gives us <router-link> tags that will be rendered
+                 as <a> tags by default. -->
+            <router-link to="/happy">Happy</router-link>
+            <router-link to="/sad">Sad</router-link>
+            <!-- VueRouter will replace <router-view> based on route. -->
+            <router-view></router-view>
+          </v-card-text>
+        </v-card>
+      </v-content>
+    </v-app>
   </script>
 
 </body>

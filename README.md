@@ -2,9 +2,14 @@
 
 ## What
 
-A very simple example Meteor app using Vue as the front end.
+A very simple example Meteor app showing how to use
 
-This is the master branch, which uses meteormogul Atmosphere packages for vue and vuetify.
+- VueJS
+- Vuetify
+- Material Design Icon Fonts
+- Vue Router
+
+This is the `master` branch, which uses [meteormogul Atmosphere packages](https://atmospherejs.com/meteormogul/).  The `npm` branch uses [NPM packages](https://www.npmjs.com/).
 
 ## Why
 
@@ -29,7 +34,12 @@ $ meteor npm install --save @babel/runtime
 
 ## Branches
 
-The `master` branch uses the `meteormogul:vue-dist` Atmosphere package of vue.js and the `meteormogul:vuetify-dist` Atmosphere package of vuetify.js.
+The `master` branch uses these Atmosphere packages:
+
+- `meteormogul:vue-dist` for vue.js
+- `meteormogul:vuetify-dist` for vuetify.js
+- `meteormogul:material-design-icons-fonts` for iconfont/MaterialIcons-Regular
+- `meteormogul:vue-router-dist` for vue-router.js
 
 The `npm` branch uses NPM packages.
 
