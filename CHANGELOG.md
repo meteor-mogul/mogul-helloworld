@@ -1,6 +1,10 @@
 # Changelog for mogul-helloworld
 
-## [0.1.7] - 2018-03-15
+## [0.1.9] - 2018-03-13
+
+- Do not pull Material Design Icon Fonts from google.
+
+## [0.1.7] - 2018-03-13
 
 - Comment code.
 - Update README.
