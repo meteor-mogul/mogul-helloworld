@@ -1,5 +1,9 @@
 # Changelog for mogul-helloworld
 
+## [0.1.11] - 2018-03-14
+
+- Added link to favicon in head
+
 ## [0.1.9] - 2018-03-13
 
 - Do not pull Material Design Icon Fonts from google.
